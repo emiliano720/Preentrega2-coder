@@ -1,0 +1,266 @@
+* {
+    font-family: 'Bona Nova', serif;
+}
+
+
+/* INDEX CSS */
+
+
+#header {
+            background-color:rgb(255, 255, 255);
+            display: flex;
+            width: 100%;
+            border-bottom: 3px black solid;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.btnNav { 
+    display: inline-block;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 18px;
+    
+}
+
+
+
+nav ul li a {
+    color: rgb(63, 65, 65);
+}
+ul li a{
+    text-decoration: none;
+
+}
+
+
+header nav ul li .btnRegistro {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: rgb(36, 88, 133);
+    border-radius: 8%;
+    margin-left: 40em;
+}
+
+.btnRegistro:hover {
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    padding-top: 30px;
+    margin-right: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.text p {
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+.img1 img {
+    margin-top: 40px;
+    height: 200px;
+
+}
+
+
+
+/* FOOTER CSS */
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    margin: 0;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.footer li {
+    float: left;
+    margin: 0 10px;
+}
+.footer i {
+    font-size: 20px;
+}
+
+
+/* NOSOTROS CSS*/
+
+
+
+/* Precios CSS */
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+}
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+
+.column .prueba1 {
+    width: 100%;
+    width: 140px;
+}
+
+
+
+.containerPrecios {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 100%;
+    margin: 20px 120px 0px 120px;
+}
+
+
+/* EMPRESAS CSS */
+.conteinerEmpresas{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
+    
+}
+
+.textEmpresas {
+margin-top: 10px;
+text-align: left;
+}
+
+
+
+.imgEmpresas {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    
+}
+
+
+.imgEmpresas img {
+    margin-left: 65em;
+    margin-top: 0px;
+    align-items: center;
+
+}
+
+.imgEmpresas2 {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    
+}
+
+
+.imgEmpresas2 img {
+    margin-left: 75em;
+    margin-top: 0px;
+    align-items: center;
+
+}
+
+
+
+/* CONTACTO CSS */
+
+main {
+    display: flex;
+}
+
+main .cuadradoInf {
+    display: flex;
+    background: linear-gradient(to right, rgb(58, 55, 122) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 420px;
+    width: 220px;
+    margin: 170px 0px 0px 320px;
+}
+
+
+.iconContacto  {
+    display: flex;
+    flex-direction: row;
+    margin: 130px 0px 0px 0px;
+    justify-content: left;
+}
+
+main .cuadradoInf ul li{
+    margin-top: 20px;
+    list-style: none;
+
+   
+}
+
+.iconContacto a {
+    color: black;
+    text-decoration: none;
+    
+
+    
+}
+
+
+.iconContacto i {
+    font-size: 20px;
+    
+}
+
+
+
+main .contacto {
+    display: flex;
+    background: linear-gradient(to left, rgb(58, 4, 39) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+    height: 450px;
+    width: 600px;
+    margin: 150px 300px 0px 0px ;
+    text-align: center;
+
+}
+
+.tituloForm {
+    text-align: center;
+
+}
+
+.formulario {
+    margin-top: 2px;
+}
+
+
+
