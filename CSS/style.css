@@ -6,261 +6,265 @@
 /* INDEX CSS */
 
 
-#header {
-            background-color:rgb(255, 255, 255);
-            display: flex;
-            width: 100%;
-            border-bottom: 3px black solid;
-}
-
-.logo img{
-    height: 50px;
-    width: auto;
-    border: 2px black solid;
-    padding: 10px;
-}
-
-.btnNav { 
-    display: inline-block;
-    padding: 25px;
-    padding-top: 0;
-    padding-bottom: 0;
-    align-items: center;
-    margin-top: 15px;
-    font-size: 18px;
-    
-}
 
 
-
-nav ul li a {
-    color: rgb(63, 65, 65);
-}
-ul li a{
-    text-decoration: none;
-
-}
-
-
-header nav ul li .btnRegistro {
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    background-color: rgb(36, 88, 133);
-    border-radius: 8%;
-    margin-left: 40em;
-}
-
-.btnRegistro:hover {
-	box-shadow: 5px 5px 5px #888888;
-
-}
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-bottom: 20vh;
+  }
+  
+  .text {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-carousel {
+    height: 40vh;
+    width: max-content;
+  }
+  
+
+  #carouselExample {
+    
+    height: 20px;
+    
+  }
+
+.carousel-control-prev {
+    height: 8px;
+    margin-top: 20vh;
+    font-size: 0px;
+    background-color: none;
+    margin-right: 30px;
+}
+.carousel-control-prev-icon{
+    color: #388e3c;
+    background-color: #a28f13;
 }
 
-.text {
-    padding-top: 30px;
-    margin-right: 60px;
+
+  
+
+
+
+/*PRECIOS */
+
+  
+body .price{
+    display: grid;
+    justify-content: center;
     align-items: center;
+    height: auto;
+  }
+  
+  .prices-wrapper {
+    max-width: 960px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prices-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .price-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
-}
-
-.text p {
-    font-size: 18px;
-    margin-top: 90px;
-}
-
-.img1 img {
-    margin-top: 40px;
-    height: 200px;
-
-}
-
+    background: linear-gradient(to bottom, #ffcccc, #ff8080);
+  }
+  
+  .price-title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .price-description {
+    font-size: 16px;
+  }
+  
+  .price {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  .price-button {
+    display: inline-block;
+    background-color: #a28f13;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .price-button:hover {
+    background-color: #388e3c;
+  }
+  
 
 
 /* FOOTER CSS */
 
+
+  
 .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
     bottom: 0;
     width: 100%;
-}
-.footer p {
-    margin: 0;
-}
-.footer a {
-    color: black;
-    text-decoration: none;
-}
-.footer ul {
-    list-style-type: none;
-    margin: 0;
+
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer ul {
+    display: flex;
+    margin: 10px 0 0;
     padding: 0;
-    overflow: hidden;
-}
-.footer li {
-    float: left;
-    margin: 0 10px;
-}
-.footer i {
-    font-size: 20px;
-}
-
-
-/* NOSOTROS CSS*/
-
-
-
-/* Precios CSS */
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 220px;
-}
-.column {
-    flex: 1;
-    padding: 0 10px;
-}
-
-
-.column .prueba1 {
-    width: 100%;
-    width: 140px;
-}
-
-
-
-.containerPrecios {
-    display: flex;
-    height: 700px;
-    justify-content: center;
-    background-color: aquamarine;
-    height: 100%;
-    margin: 20px 120px 0px 120px;
-}
+  }
+  
+  .footer ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+  .footer ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer i {
+    font-size: 24px;
+  }
 
 
 /* EMPRESAS CSS */
-.conteinerEmpresas{
+
+.conteiner-empresas {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    
-    
-    
-}
-
-.textEmpresas {
-margin-top: 10px;
-text-align: left;
-}
-
-
-
-.imgEmpresas {
-    display: flex;
-    height: 120px;
-    width: 120px;
-    
-}
-
-
-.imgEmpresas img {
-    margin-left: 65em;
-    margin-top: 0px;
+    justify-content: center;
     align-items: center;
-
-}
-
-.imgEmpresas2 {
+  }
+  
+  .row {
     display: flex;
-    height: 120px;
-    width: 120px;
-    
-}
-
-
-.imgEmpresas2 img {
-    margin-left: 75em;
-    margin-top: 0px;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .col-6 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+ 
+  
 
-}
-
+  
+.img-empresas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .conteiner-empresas {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  .text-empresas {
+    width: 50%; 
+    padding-right: 20px; 
+  }
+  
+  .img-empresas img {
+    width: 100%; 
+  }
+    
+  .boton-registro {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
 
 
 /* CONTACTO CSS */
 
-main {
-    display: flex;
-}
-
-main .cuadradoInf {
-    display: flex;
-    background: linear-gradient(to right, rgb(58, 55, 122) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    height: 420px;
-    width: 220px;
-    margin: 170px 0px 0px 320px;
-}
-
-
-.iconContacto  {
-    display: flex;
-    flex-direction: row;
-    margin: 130px 0px 0px 0px;
-    justify-content: left;
-}
-
-main .cuadradoInf ul li{
-    margin-top: 20px;
-    list-style: none;
-
-   
-}
-
-.iconContacto a {
-    color: black;
-    text-decoration: none;
-    
-
-    
-}
-
-
-.iconContacto i {
-    font-size: 20px;
-    
-}
-
-
-
-main .contacto {
-    display: flex;
-    background: linear-gradient(to left, rgb(58, 4, 39) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    justify-content: center;
-    height: 450px;
-    width: 600px;
-    margin: 150px 300px 0px 0px ;
+form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
     text-align: center;
-
-}
-
-.tituloForm {
-    text-align: center;
-
-}
-
-.formulario {
-    margin-top: 2px;
-}
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .label-form {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .button-form[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+ 
 
 
